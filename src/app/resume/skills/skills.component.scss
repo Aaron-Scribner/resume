@@ -1,0 +1,16 @@
+.lx-resume-skills span{
+  display:inline-block;
+  margin:0.3125rem;
+  margin-left:0px;
+  padding:0.3125rem 0.625rem;
+  font-family:'Muli';
+  font-size:0.8125rem;
+  font-weight:600;
+  background:black;
+  color:white;
+  border-radius:0.25rem;
+
+  &:hover{
+    background:red;
+  }
+}

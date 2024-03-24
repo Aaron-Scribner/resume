@@ -1,0 +1,16 @@
+<div class="lx-resume-bloc">
+  <h3>Education</h3>
+  <div class="lx-resume-education">
+    <ul>
+      <li *ngFor="let schooling of education">
+        <h4>{{schooling.degree}}
+          <ins>{{schooling.schoolName}}</ins>
+        </h4>
+        <span>{{schooling.startDate}} - {{schooling.endDate}}</span>
+        <p>
+          {{schooling.description}}
+        </p>
+      </li>
+    </ul>
+  </div>
+</div>

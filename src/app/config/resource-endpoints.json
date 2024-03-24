@@ -1,0 +1,36 @@
+{
+  "environments": [
+        {
+      "name": "local-dev",
+      "endpoints": [
+        {
+          "resource": "Resume",
+          "baseUrl": "./assets/data",
+          "url": "resumes.json",
+          "versions": [
+            {
+              "verb": "default",
+              "value": "v1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "production",
+      "endpoints": [
+        {
+          "resource": "Resume",
+          "baseUrl": "./assets/data",
+          "url": "resumes.json",
+          "versions": [
+            {
+              "verb": "default",
+              "value": "v1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
